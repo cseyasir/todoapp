@@ -1,9 +1,4 @@
-update
-uodate 
-umar
-shulai
-addnew yasir
-python
-testing
-test cli
-GUi
+Add button is done
+Edit button is done
+complete buton is done
+closed buton is done
