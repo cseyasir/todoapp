@@ -5,3 +5,5 @@ shulai
 addnew yasir
 python
 testing
+test cli
+GUi
