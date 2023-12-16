@@ -10,8 +10,9 @@ while True:
     user_input = user_input.strip()
     if user_input.startswith("add"):
         todo = user_input[4:]
-        with open("todos.txt", "a") as file:
-            file.write(todo + '\n')
+        function.add(todo)
+      #  with open("todos.txt", "a") as file:
+           # file.write(todo + '\n')
 
     elif user_input.startswith("show"):
         todos = function.get_todos("todos.txt")

@@ -6,3 +6,7 @@ def get_todos(filepath=FILEPATH):
 def write_todos(filepath,todos_arg):
     with open(filepath, "w") as file:
         file.writelines(todos_arg)
+def add(todo):
+    with open("todos.txt", "a") as file:
+        file.write(todo + '\n')
+    return todo
